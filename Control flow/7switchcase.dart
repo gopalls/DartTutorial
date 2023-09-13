@@ -1,7 +1,7 @@
 void main() {
   //switch case statement
 
-  String grade = "A";
+  String grade = "B";
 
   switch (grade) {
     case 'A':
@@ -11,12 +11,15 @@ void main() {
       print("Very good ");
       break;
     case 'C':
-      print("good enough but work hard");
+      print("Good enough but work hard");
       break;
     case 'F':
       print("You are failed");
       break;
     default:
-      print("Invalid")
+      print("Invalid");
   }
+
+  //String and int allowed
+  // Double and Boolean Not allowed
 }

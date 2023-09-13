@@ -12,5 +12,11 @@ void main() {
       break;
     case 'C':
       print("good enough but work hard");
+      break;
+    case 'F':
+      print("You are failed");
+      break;
+    default:
+      print("Invalid")
   }
 }

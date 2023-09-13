@@ -8,7 +8,7 @@ void main(){
 
 
   // IF ELSE IF Statement
-  var marks = 70;
+  var marks = 90;
   if (marks>=90 && marks<100){
     print("A+ grade");
   }
@@ -27,6 +27,8 @@ void main(){
   else {
     print("Invalid Marks,Please Try");
   }
+
+
 
 
 }
